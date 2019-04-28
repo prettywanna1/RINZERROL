@@ -1,0 +1,95 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+header {
+background-size: cover;
+background-position: center;
+}
+
+body{
+	text-align: center;
+	text-decoration: none;
+}
+
+.menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	height: 10hv;
+	padding: 0px;
+}
+
+.menu li{
+	list-style: none;
+	text-align: center;
+	color: black;
+	padding: 20px;
+	font-size: 10vh;
+}
+
+
+.logo img {
+width: 150px;
+height: auto;
+float: left;
+padding-top: 30px;
+padding-left: 50px;
+}
+
+body {
+font-family: monospace;
+}
+
+.slide-1, .slide-2 {
+display: block;
+position: absolute;
+width: 1365px;
+height: 655px;
+}
+
+.slide-1 {
+animation: fade1 15s infinite;
+}
+
+.slide-2 {
+animation: fade2 15s infinite;
+}
+
+@keyframes fade1 {
+0%{opacity: 1;}
+50%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+@keyframes fade2 {
+0%{opacity: 0;}
+50%{opacity: 1;}
+100%{opacity: 0;}
+}
+
+
+logo img {
+width: 150px;
+height: auto;
+float: left;
+padding-top: 30px;
+}
+
+.buttom {
+margin-top: 30px;
+margin-left: 440px;
+}
+
+.btn {
+padding: 100px;
+float: left;
+color: white;
+text-decoration: none;
+margin-right: 5px;
+font-size: 25px;
+text-transform: uppercase;
+font-family: "Roboto", sans-serif;
+}
+
